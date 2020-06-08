@@ -39,19 +39,18 @@ Expo for app
 
 1. Open your computer's terminal. If you are on Windows, it can be either CMD or PowerShell.
 2. Change the current working directory to the location where you want the module code to be saved on your computer.
-3. Clone this repository by running:
+3. Clone this repository by running: `https://github.com/Alexsandrogms/ecoleta.git`
 4. Navigate to the directory, already inside the `frontend`,`backend` and `mobile` directories, execute the commands below.
 5. Run `npm / yarn install` for each directory mentioned above, to install the dependencies.
 6. Run `npm / yarn run dev` to start the development server in the back-end directory.
 7. Run `npm / yarn start` to start the development server in the frontend directory.
-8.
-9. Run `npm / yarn knex migrate: latest` to create the database that will be used in the application. If you have further questions, read the documentation [knexjs](http://knexjs.org/).
+8. Run `npm / yarn knex migrate: latest` to create the database that will be used in the application. If you have further questions, read the documentation [knexjs](http://knexjs.org/).
 
 # Built with the following technologies:
 
 - [Nodejs](https://nodejs.org/en/) - (Express, Cors, knex, celebrate)
-- [ReactJS](https://pt-br.reactjs.org/) (React-dom, React-router-dom e axios, leaflet, react-dropzone)
-- [React Native](https://reactnative.dev/) (Expo, axios e expo-constants/mail-composer, expo-location, react-native-maps)
+- [ReactJS](https://pt-br.reactjs.org/) (React-dom, React-router-dom, axios, leaflet e react-dropzone)
+- [React Native](https://reactnative.dev/) (Expo, expo-constants/mail-composer, expo-location e react-native-maps)
 - [SLQlite3](https://www.sqlite.org/index.html) - Database
 - [TypeScript](https://www.typescriptlang.org/) - TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
 
